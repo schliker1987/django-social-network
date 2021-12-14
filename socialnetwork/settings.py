@@ -2,11 +2,11 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = '@)h--nymd2&at*v$2$jf87q0&*o%rw9gzxgul(kr%$c4=k4q3)'
+SECRET_KEY = '@)h--nymd2&at*v$2$SDFAJKSDFJK29889398238UJDAJSFJASDFJK238989289938jf87q0&*o%rw9gzxgul(kr%$c4=k4q3)'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'social.manjurulhoque.com', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '*']
 
 INSTALLED_APPS = [
     'channels',
